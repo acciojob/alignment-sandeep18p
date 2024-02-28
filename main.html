@@ -1,15 +1,111 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <title>HTML Assignment 3</title>
+    <style>
+        .middle {
+            border: 1px solid black;
+            border-spacing: 1px;
+            padding: 1px;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .right {
+            text-align: right;
+        }
+    </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <h1 style="text-align: center;">HTML Assignment #3</h1>
+
+    <table class="middle" id="table-1">
+        <tr>
+            <td id="t11">Row 1, Column 1</td>
+            <td id="t12">Row 1, Column 2</td>
+            <td id="t13" class="center right">Row 1, Column 3</td>
+        </tr>
+        <tr>
+            <td>Row 2, Column 1</td>
+            <td>Row 2, Column 2</td>
+            <td>Row 2, Column 3</td>
+        </tr>
+        <tr>
+            <td>Row 3, Column 1</td>
+            <td>Row 3, Column 2</td>
+            <td>Row 3, Column 3</td>
+        </tr>
+    </table>
+
+    <table class="middle" id="table-2">
+        <tr>
+            <td colspan="6" id="t21">This is a single cell spanning 6 columns</td>
+        </tr>
+        <tr>
+            <td>Row 2, Column 1</td>
+            <td>Row 2, Column 2</td>
+            <td>Row 2, Column 3</td>
+            <td>Row 2, Column 4</td>
+            <td>Row 2, Column 5</td>
+            <td>Row 2, Column 6</td>
+        </tr>
+        <tr>
+            <td>Row 3, Column 1</td>
+            <td>Row 3, Column 2</td>
+            <td>Row 3, Column 3</td>
+            <td>Row 3, Column 4</td>
+            <td>Row 3, Column 5</td>
+            <td>Row 3, Column 6</td>
+        </tr>
+        <tr>
+            <td>Row 4, Column 1</td>
+            <td>Row 4, Column 2</td>
+            <td>Row 4, Column 3</td>
+            <td>Row 4, Column 4</td>
+            <td>Row 4, Column 5</td>
+            <td>Row 4, Column 6</td>
+        </tr>
+        <tr>
+            <td>Row 5, Column 1</td>
+            <td>Row 5, Column 2</td>
+            <td>Row 5, Column 3</td>
+            <td>Row 5, Column 4</td>
+            <td>Row 5, Column 5</td>
+            <td>Row 5, Column 6</td>
+        </tr>
+        <tr>
+            <td>Row 6, Column 1</td>
+            <td>Row 6, Column 2</td>
+            <td>Row 6, Column 3</td>
+            <td>Row 6, Column 4</td>
+            <td>Row 6, Column 5</td>
+            <td>Row 6, Column 6</td>
+        </tr>
+    </table>
+
+    <table class="middle" id="table-3">
+        <tr class="green">
+            <td colspan="2">Green Row 1</td>
+        </tr>
+        <tr>
+            <td id="t-image" colspan="2"><img src="image_url_here" alt="Image"></td>
+        </tr>
+        <tr class="blue">
+            <td colspan="2">Blue Row 2</td>
+        </tr>
+    </table>
 
 </body>
 
